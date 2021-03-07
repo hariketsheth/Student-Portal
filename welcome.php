@@ -9,9 +9,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	  <script src="https://prechykairoli.rf.gd/js/sweetalert2.all.min.js"> </script>
-	  <script src="https://prechykairoli.rf.gd/js/jquery-3.4.1.min.js"></script> 
-	  <link rel="stylesheet" href="https://prechykairoli.rf.gd/css/sweetalert2.min.css" />
+	  <script src="https://hariketsheth-project1.42web.io/js/sweetalert2.all.min.js"> </script>
+	  <script src="https://hariketsheth-project1.42web.io/js/jquery-3.4.1.min.js"></script> 
+	  <link rel="stylesheet" href="https://hariketsheth-project1.42web.io/css/sweetalert2.min.css" />
 	  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link rel="stylesheet" href="css/style.css" />
 	  <script>
@@ -87,7 +87,7 @@ if(($_SESSION['connectiondb']=="false") ){
   confirmButtonText: 'Continue'
 })
       .then((value) => {
-     location.href='https://prechykairoli.rf.gd/index.php'
+     location.href='https://hariketsheth-project1.42web.io/index.php'
 	 });
       </script>
 <?php
@@ -101,7 +101,7 @@ if ($_POST['uname']== $fetch_info['username'] && $_POST['pass']==$fetch_info['co
     $_SESSION['status']="active";
     ?>
 	 <script>
-    swal.fire( 'Hariom <?php echo $fetch_info['name']; ?>' ,  
+    swal.fire( 'Hi There! <?php echo $fetch_info['name']; ?>' ,  
 	  'You have successfully logged in.<br> Press the <b>OK</b> to continue to your account.<br>Please contact us if you face any difficulty.' ,  
 	  'success' )
 .then((value) => {
@@ -116,14 +116,14 @@ else if ($_POST['uname']== $fetch_info['username'] && $_POST['pass']==$fetch_inf
     $_SESSION['status']="inactive";
     ?>
     <script>Swal.fire({
-  title: 'Hariom <?php echo $fetch_info['name']; ?>' ,
-  text: 'Your account is temporarily banned because of inactivity. Please notify us at prechykairoli@gmail.com if you want to re-activate your account' ,
+  title: 'Sorry, <?php echo $fetch_info['name']; ?>' ,
+  text: 'Your account is temporarily banned because of inactivity. Please notify us at hariket.sukeshkumar2020@gmail.com if you want to re-activate your account' ,
   icon: 'warning',
   confirmButtonColor: '#d73',
   confirmButtonText: 'RE-ACTIVATE'
 })
       .then((value) => {
-     location.href='mailto:prechykairoli@gmail.com'
+     location.href='mailto:hariket.sukeshkumar2020@gmail.com'
 	 location.href='index.php'
 	 });
       </script>
@@ -168,7 +168,7 @@ swalWithBootstrapButtons.fire({
   ) {
     swalWithBootstrapButtons.fire(
       'Sorry for the inconvenience',
-      'You can either write a mail at prechykairoli@gmail.com or clarify your doubt on Whatsapp',
+      'You can either write a mail at hariket.sukeshkumar2020@gmail.com',
       'error'
     )
       .then((value) => {
@@ -200,7 +200,7 @@ else if ( ($_POST['uname']==$fetch_info['username'] && $_POST['pass']!=$fetch_in
 })
 
 	.then((value) => {
-	 window.open("mailto:prechykairoli@gmail.com?subject=LOST MY PORTAL PASSWORD");
+	 window.open("mailto:hariket.sukeshkumar2020@gmail.com?subject=LOST MY PORTAL PASSWORD");
      location.href='index.php' 
 	 });
   }
@@ -225,11 +225,11 @@ else if ((strlen($_POST['pass']) > 0) && (strlen($_POST['uname']) == 0))
   if (result.value) {
     Swal.fire(
       'Not an Issue',
-      'Your data & assignments are still safe with us. Please write a mail at prechykairoli@gmail.com to get your username',
+      'Your data & assignments are still safe with us. Please write a mail at hariket.sukeshkumar2020@gmail.com to get your username',
       'success'
     )
 	.then((value) => {
-	 window.open("mailto:prechykairoli@gmail.com?subject=LOST MY PORTAL USERNAME");
+	 window.open("mailto:hariket.sukeshkumar2020@gmail.com?subject=LOST MY PORTAL USERNAME");
      location.href='index.php' 
 	 });
   }
@@ -254,11 +254,11 @@ else if ((strlen($_POST['uname']) > 0) && (strlen($_POST['pass']) == 0))
   if (result.value) {
     Swal.fire(
        'Uhh.. Ohh !',
-      'Please write a mail at prechykairoli@gmail.com to get your password. Please mention your username while requesting for password in the mail.',
+      'Please write a mail at hariket.sukeshkumar2020@gmail.com to get your password. Please mention your username while requesting for password in the mail.',
       'success'
     )
 	.then((value) => {
-	 window.open("mailto:prechykairoli@gmail.com?subject=LOST MY PORTAL PASSWORD");
+	 window.open("mailto:hariket.sukeshkumar2020@gmail.com?subject=LOST MY PORTAL PASSWORD");
      location.href='index.php' 
 	 });
   }
