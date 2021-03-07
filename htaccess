@@ -1,10 +1,10 @@
 # error redirect
-ErrorDocument 400 https://prechykairoli.rf.gd/error/400.htm
-ErrorDocument 401 https://prechykairoli.rf.gd/error/401.htm
-ErrorDocument 403 https://prechykairoli.rf.gd/error/403.htm
-ErrorDocument 404 https://prechykairoli.rf.gd/error/404.htm
-ErrorDocument 500 https://prechykairoli.rf.gd/error/500.htm
-ErrorDocument 503 https://prechykairoli.rf.gd/error/503.htm
+ErrorDocument 400 https://hariketsheth-project1.42web.io/error/400.htm
+ErrorDocument 401 https://hariketsheth-project1.42web.io/error/401.htm
+ErrorDocument 403 https://hariketsheth-project1.42web.io/error/403.htm
+ErrorDocument 404 https://hariketsheth-project1.42web.io/error/404.htm
+ErrorDocument 500 https://hariketsheth-project1.42web.io/error/500.htm
+ErrorDocument 503 https://hariketsheth-project1.42web.io/error/503.htm
 Options -Indexes
 RewriteEngine On 
 RewriteCond %{HTTPS} off 
