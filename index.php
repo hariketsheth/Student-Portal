@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	  <link rel="icon" type="image/jpg" href="https://prechykairoli.rf.gd/img/logo.ico" />
+	  <link rel="icon" type="image/jpg" href="https://hariketsheth-project1.42web.io/img/logo.ico" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
@@ -51,7 +51,7 @@ return false;
 }
 	  </script>
 	  
-    <title>PRECHYK AIROLI</title>
+    <title>HARIKET SHETH</title>
   </head>
   <body oncontextmenu="return false;" >
 	 
@@ -60,9 +60,9 @@ return false;
         <div class="signin-signup">
           <form action="welcome.php" class="sign-in-form" id="loginform" method="POST">
 		  <font color="Green" align="center">
-		  <h2>Hariom Prechyks</h2>
-            <h5>The Portal is undergoing deletion process</h5>
-			<h5>on request of Prechyks</h5>
+		  <h2>Greetings All</h2>
+            <h5>The Portal is undergoing updation process</h5>
+			<h5></h5>
 			</font>
 		  <img src="img/delete-files.jpg" height="130" width="240">
 			<h2 class="title">Sign in</h2>
@@ -101,19 +101,19 @@ return false;
               <input type="tel" placeholder="Phone Number" autocomplete="off" id="phone1" required >
             </div>
             <input type="submit" class="bxtn" value="Sign up"  >
-            <h6>Please use this alternate link, if you are facing any issue ! <a    href="https://prechykairoli.typeform.com/to/YEfDzGVm">Click Here</a></h6>
+            <h6>Please use this alternate link, if you are facing any issue ! <a    href="#">Click Here</a></h6>
             <p class="social-text">Check out our social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="https://www.twitter.com/PrechykAiroli" target="_blank" class="social-icon">
+              <a href="https://www.twitter.com/HariketSheth" target="_blank" class="social-icon">
                 <i class="fab fa-twitter"></i>
               </a>
               <a href="https://www.youtube.com/channel/UCtfqjCsKrOn44gxNHzJHR8Q" target="_blank" class="social-icon">
                 <i class="fab fa-youtube"></i>
               </a>
-              <a href="mailto:prechykairoli@gmail.com" target="_blank" class="social-icon">
+              <a href="mailto:hariket.sukeshkumar2020@gmail.com" target="_blank" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
             </div>
@@ -124,7 +124,7 @@ return false;
       <div class="panels-container">
         <div class="panel left-panel">
           <div class="content">
-            <h3>New to PRECHYK AIROLI ?</h3>
+            <h3>New to the School ?</h3>
             <p>
               If this is your first time attending the meeting, Please register first. 
             </p>
@@ -136,7 +136,7 @@ return false;
         </div>
         <div class="panel right-panel">
           <div class="content">
-            <h3>Already Registered with PRECHYK AIROLI ?</h3>
+            <h3>Already Registered with School ?</h3>
             <p>
               Those who have already attended previous meetings with us, Need not to register ! Sign In with login details sent on your mail
             </p>
